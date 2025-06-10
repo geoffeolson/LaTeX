@@ -85,4 +85,30 @@ Add a backslash to fix the problem:
 ```
 
 
+### Task 4: New Lines
+
+Detect LaTeX with the folowing signature used for multiple lines in equation elements like matricies ```\\``` (two backslashes).  This usually indicate a new line, but GitHub will not insert a newline unless there is a newline in the LaTeX.  Fix by adding a Newline after ```\\```.
+
+**Example: incorrect**
+```
+$$
+x_i = \begin{bmatrix}
+100 \\ 200 \\ 300 \\
+\end{bmatrix}
+$$
+```
+
+**Example correct**
+```
+$$
+x_i = \begin{bmatrix}
+100 \\
+200 \\
+300 \\
+\end{bmatrix}
+$$
+```
+Add Newlines to fix the problem:
+
+
 

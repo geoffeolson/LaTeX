@@ -32,21 +32,14 @@
 ### Pose Definitions
 
 \[
-x_i = \begin{bmatrix} 
-x_i \\ 
-y_i \\ 
-\theta_i 
+x_i = \begin{bmatrix} x_i \\ y_i \\ \theta_i 
 \end{bmatrix},
 \quad
-x_j = \begin{bmatrix} 
-x_j \\ 
-y_j \\ 
-\theta_j 
+x_j = \begin{bmatrix} x_j \\ y_j \\ \theta_j 
 \end{bmatrix}, 
 \quad
 \Delta t = \begin{bmatrix} 
-x_j - x_i \\ 
-y_j - y_i 
+x_j - x_i \\ y_j - y_i 
 \end{bmatrix}
 \]
 

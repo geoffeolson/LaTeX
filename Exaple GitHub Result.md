@@ -108,3 +108,12 @@ $$
 B\_{ij} =
 \begin{bmatrix}
 R_i^\top & 0_{2 \times 1} \\
+0_{1 \times 2} & 1
+\end{bmatrix}
+$$
+
+### Summary
+
+- These Jacobians are used to populate the sparse system matrix $H$ and vector $b$ in SLAM optimization.
+- The rotation matrix $R_i^\top$ transforms global coordinates to local frame $i$.
+- The skew-symmetric matrix $S$ arises from the derivative of a rotation operation.

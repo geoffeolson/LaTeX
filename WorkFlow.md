@@ -1,9 +1,10 @@
+Apply the workflow below to the uploaded file and output the result to a code block:
+
 # Latex Conversion Workflow for Markdown Files
 This describes a workflow for converting the LaTeX in a Markdown file (.md) from the format used by ChatGPT to a format that will render in GitHub.  Open the Markdown file, perform the tasks below on the document, and close the document.
 
 ### Task 1: Inline LaTeX Delimiters
 
-Perform the following tasks on the text in the most recent code block, and place the result in a new code block: 
 **Detect Inline LaTeX:**
 - Identify LaTeX expressions intended to be inline (on a line with surrounding text).
 - If the inline math is not wrapped in **single dollar signs (`$...$`)**, replace the incorrect delimiters (e.g., `\(` and `\)`, or others) with `$`.
@@ -30,7 +31,6 @@ Before inserting the delimiters, trim whitespace around the expression so that `
 
 ### Task 2: Block LaTeX Delimiters
 
-Perform the following tasks on the text in the most recent code block, and place the result in a new code block: 
 **Detect Block LaTeX:**
 
 - Identify LaTeX expressions intended as display blocks (on their own lines).

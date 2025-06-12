@@ -1,4 +1,4 @@
-https://docs.github.com/assets/cb-39744/mw-1440/images/help/writing/image-rendered.webp
+![My Image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 # LaTeX Workflow for GitHub Markdown
 

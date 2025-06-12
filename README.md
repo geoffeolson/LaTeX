@@ -9,6 +9,14 @@ GitHub supports LaTeX equations within Markdown files, but it has specific forma
 
 Provide this workflow to ChatGPT when you want to create a Markdown document that includes LaTeX equations, such as a README file for a GitHub repository.  ChatGPT will automatically adjust the LaTeX equations to ensure they render correctly on GitHub. You can also read and follow this workflow to maunally convert your LaTeX content so that it renders correctly on GitHub.
 
+## Key Features
+
+- Convert LaTeX Equations: Automatically transform ChatGPT-generated LaTeX into a format that renders correctly on GitHub.
+
+- Formatting Guidelines: You can also read the Workflow.md document to learn how to adjust LaTeX for GitHub’s KaTeX engine to avoid common rendering issues.
+
+- Support for Inline & Block Equations: Handles both inline and display block LaTeX equations, ensuring consistency across your documents.
+
 ## Getting Started
 
 If you want to create a README.md file for your repository with equations just ask ChatGPT to create the README.md file. ChatGPT can help create all the LaTeX equations for you. 
@@ -20,16 +28,6 @@ You can also upload a Markdown document with LaTeX equations to ChatGPT and ask 
 **ChatGPT Document Upload**
 ![My Image](./assets/chat_window.png)
 
-> [!NOTE]
-> Note here
-
-## Key Features
-
-- Convert LaTeX Equations: Automatically transform ChatGPT-generated LaTeX into a format that renders correctly on GitHub.
-
-- Formatting Guidelines: You can also read the Workflow.md document to learn how to adjust LaTeX for GitHub’s KaTeX engine to avoid common rendering issues.
-
-- Support for Inline & Block Equations: Handles both inline and display block LaTeX equations, ensuring consistency across your documents.
 ## Sample Input and Output
 
 This shows how the workflow converts LaTeX equations from ChatGPT format to GitHub format.

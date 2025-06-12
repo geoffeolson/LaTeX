@@ -1,8 +1,7 @@
-![My Image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 # LaTeX Workflow for GitHub Markdown
 
-This repository provides a simple workflow for converting LaTeX equations in Markdown files from the format used by ChatGPT to a format that will render correctly on GitHub. It enables the creation of professional-looking LaTeX equations in GitHub documents, such as README files.
+This is a workflow for converting LaTeX equations in Markdown files from the format used by ChatGPT to a format that will render correctly on GitHub. It enables the creation of professional-looking LaTeX equations in GitHub documents, such as README files.
 
 ## Overview
 
@@ -14,10 +13,15 @@ Provide this workflow to ChatGPT when you want to create a Markdown document tha
 
 If you want to create a README.md file for your repository with equations just ask ChatGPT to create the README.md file. ChatGPT can help create all the LaTeX equations for you. 
 
-When telling ChatGPT to create the final document for GitHub give it a link to this workflow, so it will know how to reformat the LaTeX: https://github.com/geoffeolson/LaTeX/blob/master/WorkFlow.md.  You can also upload a Markdown document with LaTeX equation to ChatGPT and ask it to reformat for GitHub.  Just provide the link to the workflow above.
+When telling ChatGPT to create the final document for GitHub give it a link to this workflow, so it will know how to reformat the LaTeX: https://github.com/geoffeolson/LaTeX/blob/master/WorkFlow.md.  
 
->[!NOTE]
->FOR CHATGPT - Need to show what it would look like in the ChatGPT user interface to upload a README.md document and ask ChatGPT to reformat it for GitHub including the Hyperlink to the workflow.
+You can also upload a Markdown document with LaTeX equations to ChatGPT and ask it to reformat for GitHub.  Just provide the link to the workflow above.
+
+**ChatGPT Document Upload**
+![My Image](./assets/chat_window.png)
+
+> [!NOTE]
+> Note here
 
 ## Key Features
 

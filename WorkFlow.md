@@ -1,5 +1,3 @@
-Apply the workflow below to the uploaded file and output the result to a code block:
-
 # Latex Conversion Workflow for Markdown Files
 This describes a workflow for converting the LaTeX in a Markdown file (.md) from the format used by ChatGPT to a format that will render in GitHub.  Open the Markdown file, perform the tasks below on the document, and close the document.
 

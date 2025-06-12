@@ -19,7 +19,7 @@ By following this workflow, you can easily convert your LaTeX content, whether i
 ## Getting Started
 To use this workflow just upload the Markdown document with LaTeX equations you want to render in GitHub. In the uplaod message include the following link to the Workflow: https://github.com/geoffeolson/LaTeX/blob/master/WorkFlow.md.
 
-Note: Need show what this looks like in ChatGPT.
+> [! NOTE TO SELF] Need show what it looks like in ChatGPT.
 
 
 ## Sample Input and Output

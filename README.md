@@ -45,10 +45,13 @@ Let \( x = y + z \). The equation is \( A_{ij} = B_{ij} + C_{ij} \).
 **Output:**
 
 ```
-Let $x = y + z$. The equation is $A_{ij} = B_{ij} + C_{ij}$.
+Let $x = y + z$. The equation is $A\_{ij} = B\_{ij} + C\_{ij}$.
 
 $$
-\mathbf{x}_i = \begin{bmatrix} x_i \\ y_i \\ \theta_i \end{bmatrix}
+\mathbf{x}\_i = \begin{bmatrix} 
+x_i \\ 
+y_i \\ 
+\theta\_i \end{bmatrix}
 $$
 ```
 

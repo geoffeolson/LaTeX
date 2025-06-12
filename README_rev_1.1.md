@@ -48,11 +48,12 @@ You can also upload a Markdown document with LaTeX equations to ChatGPT and ask 
 ## Example ChatGPT Interaction
 
 This example shows exactly what to type into ChatGPT to apply the workflow:
+Upload file: README.md
 
 ```
 Upload your Markdown file (e.g. README.md) into ChatGPT.
 
-Then, in the chat prompt, enter:
+Then, in the chat prompt, enter the following:
 
 Apply the following workflow to the uploaded file and output the result to a code block:
 
@@ -84,23 +85,4 @@ $$
 \mathbf{x}_i = \begin{bmatrix} x_i \\ y_i \\ \theta_i \end{bmatrix}
 $$
 ```
-t.
 
-Input:
-
-```
-Let \( x = y + z \). The equation is \( A_{ij} = B_{ij} + C_{ij} \).
-
-\[
-\mathbf{x}_i = \begin{bmatrix} x_i \\ y_i \\ \theta_i \end{bmatrix}
-\]
-```
-Output:
-
-```
-Let $x = y + z$. The equation is $A_{ij} = B_{ij} + C_{ij}$.
-
-$$
-\mathbf{x}_i = \begin{bmatrix} x_i \\ y_i \\ \theta_i \end{bmatrix}
-$$
-```

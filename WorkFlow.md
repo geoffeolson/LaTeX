@@ -34,21 +34,28 @@ Before inserting the delimiters, trim whitespace around the expression so that `
 - Identify LaTeX expressions intended as display blocks (on their own lines).
 - If the block math is not wrapped in **double dollar signs (`$$...$$`)**, replace the incorrect delimiters (e.g., `\[ ... \]`, or incorrect single `$`) with `$$`.
 - Ensure there are **no extra blank lines** within the block.
-- Ensure there are **no extra spaces before or after** the `$$` delimiters.
+- There must be one spaces before the beginning `$$` delimiters.
+- There must be one spaces after the ending `$$` delimiters. 
 
 **Example Fix:**
 
 Incorrect:
 ```
+Text before deliminators
 \[
 x = y + z
 \]
+Text after deliminators
 ```
 Correct:
 ```
+Text before deliminators
+
 $$
 x = y + z
 $$
+
+Text after deliminators
 ```
 
 **Trim Spaces Inside Block Math Delimiters**
@@ -68,18 +75,18 @@ Trim both leading/trailing spaces and newlines from the expression before wrappi
 
 ### Task 3: Subscripts
 
-Detect LaTeX with the folowing signature used for multiple subscripts _{...}  This can cause rendering issues in GitHub Markdown.  Fix by adding a backslash before the underscore to escape it.
+Detect LaTeX underscore used for subscripts _{...}  This can cause rendering issues in GitHub Markdown.  Fix by adding a backslash before the underscore to escape it.
 
 **Example: incorrect**
 ```
-\mathbf{x}_{ij} \quad \mathbf{x}_{ij} \quad \mathbf{x}_{ij}
+\mathbf{x}_{ij} \quad x_{ij} \quad \x_i
 ```
 
 **Example correct**
 
 Add a backslash to fix the problem:
 ```
-\mathbf{x}\_{ij} \quad \mathbf{x}\_{ij} \quad \mathbf{x}\_{ij}
+\mathbf{x}\_{ij} \quad x\_{ij} \quad \x\_i
 ```
 
 

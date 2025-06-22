@@ -34,7 +34,7 @@ Before inserting the delimiters, trim whitespace around the expression so that `
 - Identify LaTeX expressions intended as display blocks (on their own lines).
 - If the block math is not wrapped in **double dollar signs (`$$...$$`)**, replace the incorrect delimiters (e.g., `\[ ... \]`, or incorrect single `$`) with `$$`.
 - Ensure there are **no extra blank lines** within the block.
-- There must be one spaces before the beginning `$$` delimiters.
+- There must be one space before the beginning `$$` delimiters.
 - There must be one spaces after the ending `$$` delimiters. 
 
 **Example Fix:**
